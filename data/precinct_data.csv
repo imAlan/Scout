@@ -1,16 +1,17 @@
-1t Precinct,(212) 334-0611,16 Ericsson Place,40.7202061,-74.0069962,Manhattan
+precinct,phone,address,lat,lng,borough
+1st Precinct,(212) 334-0611,16 Ericsson Place,40.7202061,-74.0069962,Manhattan
 5th Precinct,(212) 334-0711,19 Elizabeth Street,40.716188,-73.99748699999999,Manhattan
 6th Precinct,(212) 741-4811,233 West 10 Street,40.7340002,-74.0054329,Manhattan
 7th Precinct,(212) 477-7311,19 1/2 Pitt Street,40.7163623,-73.9839341,Manhattan
 9th Precinct,(212) 477-7811,321 East 5 Street,40.7264639,-73.9879327,Manhattan
 10th Precinct,(212) 741-8211,230 West 20th Street,40.742685,-73.99866600000001,Manhattan
 13th Precinct,(212) 477-7411,230 East 21st Street,40.73673960000001,-73.9827007,Manhattan
-Midtown So. Pct.,(212),239-9811 357 West 35th Street ,40.7539299,-73.994835,Manhattan
+"14th Precinct","(212) 239-9811","357 West 35th Street",40.7539299,-73.994835,Manhattan
 17th Precinct,(212) 826-3211,167 East 51st Street,40.75682150000001,-73.9711731,Manhattan
-Midtown No. Pct.,(212),767-8400 306 West 54th Street,40.7649192,-73.9850802,Manhattan
+"18th Precinct","(212) 767-8400","306 West 54th Street",40.7649192,-73.9850802,Manhattan
 19th Precinct,(212) 452-0600,153 East 67th Street,40.76717,-73.96379,Manhattan
 20th Precinct,(212) 580-6411,120 West 82nd Street,40.7842825,-73.9749964,Manhattan
-Central Park Pct.,(212),570-4820 86th St & Transverse Road ,41.6466564,-93.73656079999999,Manhattan
+"22nd Precinct","(212) 570-4820","86th St & Transverse Road",41.6466564,-93.73656079999999,Manhattan
 23rd Precinct,(212) 860-6411,162 East 102nd Street,40.7891801,-73.94736639999999,Manhattan
 24th Precinct,(212) 678-1811,151 West 100th Street,40.7964599,-73.9672592,Manhattan
 25th Precinct,(212) 860-6511,120 East 119th Street,40.80068,-73.94111099999999,Manhattan
@@ -71,3 +72,7 @@ Central Park Pct.,(212),570-4820 86th St & Transverse Road ,41.6466564,-93.73656
 113th Precinct,(718) 712-7733,167-02 Baisley Boulevard,40.6797845,-73.77577389999999,Queens
 114th Precinct,(718) 626-9311,34-16 Astoria Boulevard,40.769281,-73.915487,Queens
 115th Precinct,(718) 533-2002,92-15 Northern Boulevard,40.7568128,-73.87552310000001,Queens
+120th Precinct,(718) 876-8500,78 Richmond Terrace,40.644714,-74.077306,Staten Island
+121st Precinct,(718) 697-8700,970 Richmond Avenue,40.625422,-74.148597,Staten Island
+122nd Precinct,(718) 667-2211,2320 Hylan Boulevard,40.574172,-74.105556,Staten Island
+123rd Precinct,(718) 948-9311,116 Main Street,40.511799,-74.25003,Staten Island

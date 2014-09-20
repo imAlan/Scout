@@ -17,7 +17,7 @@ class Precinct(db.Model):
 
 
 class PrecinctData(db.Model):
-    __tablename__ = 'PrecintData'
+    __tablename__ = 'PrecinctData'
     name = db.Column(db.String(128), db.ForeignKey('Precinct.name'), primary_key=True)
-    crime = db.Column(db.Enum('Burglary', 'Robbery', 'Forcible rape', 'Grand larceny', 'Grand larceny auto', 'Major felony crime', 'Felonious assault', 'Murder and non-negligent manslaughter'))
+    crime = db.Column(db.String(128), primary_key=True)
     total = db.Column(db.Integer)
