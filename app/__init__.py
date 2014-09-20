@@ -7,7 +7,8 @@ foundation = Foundation(app)
 from config import *
 
 app.config.from_object('config')
-#from app.models import db
-#db.init_app(app)
+
+from app.models import db
+db.init_app(app)
 
 from app import views
