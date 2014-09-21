@@ -3,6 +3,8 @@ import MySQLdb
 import logging
 
 logging.basicConfig(level=logging.INFO)
+
+
 def index_crime():
     es = Elasticsearch('http://localhost:9200/')
     db = MySQLdb.connect('localhost', 'root', 'password', 'scout')
@@ -25,5 +27,11 @@ def index_crime():
                 }
         )
 
+
+def main():
+
+    return None
+
+
 if __name__ == "__main__":
-    index_crime()
+    main()

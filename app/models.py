@@ -21,3 +21,17 @@ class PrecinctData(db.Model):
     name = db.Column(db.String(128), db.ForeignKey('Precinct.name'), primary_key=True)
     crime = db.Column(db.String(128), primary_key=True)
     total = db.Column(db.Integer)
+
+
+class SchoolData(db.Model):
+    __tablename__ = 'SchoolData'
+    code = db.Column(db.String(128), primary_key=True)
+    name = db.Column(db.String(128))
+    score = db.Column(db.String(128))
+    address = db.Column(db.String(128))
+    latitude = db.Column(db.Float)
+    longitude = db.Column(db.Float)
+    borough = db.Column(db.String(32))
+
+    def __repr__(self):
+        return '<School %s>' % self.name

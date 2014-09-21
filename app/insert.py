@@ -21,6 +21,14 @@ def importdata():
             s = "INSERT INTO PrecinctData (name, crime, total) VALUES ('%s', '%s', %s);" %(precinct, row['Crime'].strip(), row['Total'].strip())
             cur.execute(s)
             db.commit()
+
+    with open('data/schoolsdata.csv', 'rb') as sh:
+        reader = csv.DictReader(sh)
+        for row in reader:
+            s = "INSERT INTO SchoolData (code, name, score, address, latitude, longitude, borough) VALUES ('%s', '%s', '%s', '%s', %s, %s, '%s');" %(row['code'].strip(), row['name'].replace("'", " ").strip(), row['score'].strip(), row['address'].replace("'", "\'").strip(), row['latitude'].strip(), row['longitude'].strip(), row['borough'].strip())
+            print s
+            cur.execute(s)
+            db.commit()
     cur.close()
     db.close()
 
